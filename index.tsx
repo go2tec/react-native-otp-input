@@ -57,8 +57,8 @@ export default class OTPInputView extends Component<InputProps, OTPInputViewStat
 
     private copyCodeFromClipBoardOnAndroid = () => {
         if (Platform.OS === "android") {
-            this.checkPinCodeFromClipBoard()
-            this.timer = setInterval(this.checkPinCodeFromClipBoard, 400)
+            // this.checkPinCodeFromClipBoard()
+            // this.timer = setInterval(this.checkPinCodeFromClipBoard, 400)
         }
     }
 
